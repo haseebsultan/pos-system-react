@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ResourceGroupName: github-action-arm-rg
-      ResourceGroupLocation: "(US) East US"
+      ResourceGroupLocation: "US"
     steps:
     - uses: actions/checkout@master
     - uses: azure/login@v1
